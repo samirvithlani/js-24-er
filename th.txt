@@ -1,0 +1,41 @@
+JAVA SCRIPT:
+DOM:
+
+java script is developed by Netscape communication corporation.
+server side : c, c++, java, php, asp, asp.net
+client side: java scriptd, html, css
+
+
+dynamically typed lanuage : java script, python
+  
+statically typed language : cc, cpp, java,...
+
+browser will have js engine:
+
+browser  engine        compnay
+firefox spider monkey   mozilla
+chrome  v8              google
+safari  nitro           apple
+edge   chakra          microsoft
+
+java script:
+internal js
+external js
+inline js
+------------------------------------------------
+.js
+
+document : document object model
+window : window object
+
+
+programming language:
+script language     :
+
+//
+var let const
+
+
+data types:
+Number
+string
