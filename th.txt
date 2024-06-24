@@ -39,3 +39,7 @@ var let const
 data types:
 Number
 string
+
+var : global scope
+let : block scope
+const : block scope
