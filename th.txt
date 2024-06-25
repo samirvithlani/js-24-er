@@ -67,36 +67,20 @@ asignment operators:
 
 var a = 10
 
+-------------------------------------------------------
+decsiion making statements:
+1) if else
+2) switch case
+3) loop
 
 
+if else:
 
+if(condition)
+{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+else{
+    
+}
+    
