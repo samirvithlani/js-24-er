@@ -43,3 +43,60 @@ string
 var : global scope
 let : block scope
 const : block scope
+
+operators : operators are special symbols which can perform operatations on oprands
+
+3 type of operators are there
+1) unary operator : which works on single operand
+2) binary operator : which works on two operands
+3) ternary operator : which works on three operands
+
+-----------------------------------------------------------
+
+1)arithematic operators: + - * / % ++ --
+2)logical operators: && || !
+3)bitwise operators: & | ^ ~ << >>
+4)asignment operators: = += -= *= /= %=
+5)comparison operators: == === != !== > < >= <=
+
+
+-----------------------------------------------------------
+asignment operators:
+1) =
+= : it assign right side value to left side variable
+
+var a = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
