@@ -83,4 +83,56 @@ if(condition)
 else{
     
 }
-    
+
+
+if(condition){}
+else if(){}
+.
+..
+.
+.
+.
+else{}
+nested if else    
+
+
+logical operaotr:
+
+and &&
+or ||
+not !
+
+
+&&
+no =100
+
+&&
+T               T               t
+F               -               f
+T               F               f
+//no % 2 ==0 && no >= 50 {}
+//22
+
+T              -               t
+F             t               t
+F              F               f
+
+
+no % 2 ==0 || no >= 50 {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

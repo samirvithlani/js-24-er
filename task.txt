@@ -1,2 +1,22 @@
+swap 2 nos without using 3rd varibale
+
 if else task:
 create 10 if else program for different condition , only if else, not ladder nor nested...
+
+else if task:
+
+create any 2 programs
+
+
+--------------------------------
+
+task:
+employee salary = 40000 
+find out yearly sal of employee
+
+
+if emp yearly salry > 10 lacks he | she elig for home loan
+if emp yearly salry > 8 lacks he | she elig for car loan
+if emp yearly salry > 5 lacks he | she elig for  2 wheeler loan
+if emp yearly salry > 3 lacks he | she elig for credit card
+
