@@ -1,8 +1,9 @@
 
 //(a,b) --> function parameters
 //let a, let b
-//without argument...
-function add(no1,no2){
+//with argument... without return type
+function add(no1,no2)
+{
 
     var sum = no1 + no2;
     console.log("sum = ",sum)
@@ -11,7 +12,8 @@ function add(no1,no2){
 }
 
 
-function avg(no1,no2,no3){
+function avg(no1,no2,no3)
+{
 
     var sum = no1 + no2 + no3 
     var average = sum / 3
