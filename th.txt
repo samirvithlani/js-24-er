@@ -121,18 +121,35 @@ F              F               f
 no % 2 ==0 || no >= 50 {}
 
 
+user defined function:
+
+void main(){}
+
+void add(){
+
+    //addtion......
+}
+
+add()
+
+------------------------------ 50
+console.log("######################################")
+
+reusablity of code
+maintainability of code
+
+
+type of function:
+!)with argument with return type
+2) with argument without return type
+3)without argument with return type
+4)without argument without return type
 
 
 
+to create funciton in js : function keyword we can use
 
+function add()
+{
 
-
-
-
-
-
-
-
-
-
-
+}
