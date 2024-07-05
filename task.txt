@@ -23,3 +23,15 @@ if emp yearly salry > 3 lacks he | she elig for credit card
 
 10 functions programm with argunments
 
+-----------------------------------------------------------------
+
+
+with return type wit argunments
+
+task1) 
+1)create function which take 3 argunments and return sum of 3 argunments
+2)create function which take 3 argunments and return big of 3 argunments
+3)create function which 2 argunments as string fname and lname and return full name
+
+2)function of yopur choice...
+
