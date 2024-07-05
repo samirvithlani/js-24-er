@@ -153,3 +153,17 @@ function add()
 {
 
 }
+
+name
+email
+argumentadd
+conditionsta\\
+
+
+20....
+
+
+null** java script
+
+10 line...
+20 * 10 = 200

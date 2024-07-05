@@ -20,3 +20,6 @@ if emp yearly salry > 8 lacks he | she elig for car loan
 if emp yearly salry > 5 lacks he | she elig for  2 wheeler loan
 if emp yearly salry > 3 lacks he | she elig for credit card
 
+
+10 functions programm with argunments
+
