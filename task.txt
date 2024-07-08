@@ -35,3 +35,6 @@ task1)
 
 2)function of yopur choice...
 
+
+1)get sp and ep from user (10,33) : need to find count of even nos bw sp and ep
+
