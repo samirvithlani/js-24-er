@@ -167,3 +167,15 @@ null** java script
 
 10 line...
 20 * 10 = 200
+
+
+loop:
+1)entry control loop: for ,while
+2)exit control loop:  do while
+
+
+for loop:
+for(let i=1;i<=10;i++){
+
+    console.log(i)
+}
