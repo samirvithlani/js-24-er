@@ -198,3 +198,15 @@ while(condition){
 
 js function : it will convert to variable having block of code
 
+
+
+1)color ="red stop vehicle
+2)color ="green" go vehicle
+3)color ="yellow" wait vehicle
+
+
+discount
+
+var purchase = 200
+ purchage > 300 10% , purchage > 500 20% , purchage > 1000 30%
+
