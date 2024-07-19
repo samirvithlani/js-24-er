@@ -38,3 +38,6 @@ task1)
 
 1)get sp and ep from user (10,33) : need to find count of even nos bw sp and ep
 
+//
+uppercase :"AMIT" = amit not a,m,i,t
+lowercase
