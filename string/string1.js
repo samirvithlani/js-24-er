@@ -34,8 +34,8 @@ console.log(user)
 var x = user.charAt(1)
 console.log(x) //m
 
-var ind = user.indexOf("go")
-console.log(".........",ind) //1
+var ind = user.indexOf("s")
+console.log("index of...",ind) //1
 
 var ind1 = user.lastIndexOf("it")
 console.log(".....",ind1) //14
