@@ -1,4 +1,4 @@
-var fname = "amiT";
+var fname = "AmiT";
 var upperName = "";
 for (let i = 0; i < fname.length; i++) {
   //console.log(fname[i]);
@@ -8,6 +8,7 @@ for (let i = 0; i < fname.length; i++) {
   if (fname.charCodeAt(i) >= 97 && fname.charCodeAt(i) <= 122) {
     upperName = upperName + String.fromCharCode(fname.charCodeAt(i) - 32);
   } else {
+    
     upperName = upperName + fname[i];
   }
 }

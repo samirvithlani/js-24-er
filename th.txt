@@ -208,5 +208,34 @@ js function : it will convert to variable having block of code
 discount
 
 var purchase = 200
- purchage > 300 10% , purchage > 500 20% , purchage > 1000 30%
+purchage > 300 10% , purchage > 500 20% , purchage > 1000 30%
+
+
+
+hi this is india biggest word of string
+------------------------------------------------------
+length : it will return the length of string
+toUpperCase() : it will convert the string to upper case
+toLowerCase() : it will convert the string to lower case
+indexOf() : it will return the index of first occurance of character
+lastIndexOf() : it will return the index of last occurance of character
+charAt() : it will return the character at given index
+charCodeAt() : it will return the ascii value of character at given index
+substring() : it will return the substring of given string
+slice() : it will return the slice of given string
+trim() : it will remove the white spaces from start and end of string
+trimStart() : it will remove the white spaces from start of string
+trimEnd() : it will remove the white spaces from end of string
+split() : it will split the string based on given character
+replace() : it will replace the given character with new character
+concat() : it will concat the given string with existing string
+includes() : it will check the given string is present in existing string or not
+startsWith() : it will check the given string is starting with existing string or not
+endsWith() : it will check the given string is ending with existing string or not
+valueOf() : it will return the value of string
+toString() : it will return the string
+search() : it will search the given string in existing string
+
+
+
 
