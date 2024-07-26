@@ -235,6 +235,14 @@ endsWith() : it will check the given string is ending with existing string or no
 valueOf() : it will return the value of string
 toString() : it will return the string
 search() : it will search the given string in existing string
+-------------------------------------------------------------------------
+
+JSON: java script object notation
+
+
+product:
+question:
+own..
 
 
 
