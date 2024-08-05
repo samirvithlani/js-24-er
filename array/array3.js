@@ -4,7 +4,7 @@ var data = ["java","hindi","python","english","cpp"]
 //var isAvail= data.includes("cpp",2);
 //console.log("isAvail",isAvail)
 var flag= false;
-var index = -1;
+var index=-1;
 for(let i=0;i<data.length;i++){
     //i =0 
     //java == hindi false..
