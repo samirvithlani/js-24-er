@@ -41,3 +41,12 @@ task1)
 //
 uppercase :"AMIT" = amit not a,m,i,t
 lowercase
+
+
+
+filter task:
+1)find only even number from array
+2)find only odd number from array
+    [121,34,67,66,55,434]
+3)find palindrome numbers from array
+4)find names which start with 'a' and ends with i from array
