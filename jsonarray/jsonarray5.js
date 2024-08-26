@@ -77,3 +77,19 @@ var departments = [
 //find female employee from finance department
 //find male and active employee from it department
 //find all inactive employee from it department
+
+// var deptnames =  departments.map((dept)=>{
+//     return dept.name
+// })
+
+var deptnames = departments.map((dept)=>dept.name)
+console.log(deptnames)
+
+var femalefromfin = departments.find((dept)=>dept.name == "Finance").employees.
+filter((emp)=>emp.gender==="female")
+console.log(femalefromfin)
+
+var femalefromfin = departments.find((dept)=>dept.name == "IT").employees.
+filter((emp)=>emp.gender==="male"&& emp.isActive)
+console.log(femalefromfin)
+//mcqs.filter((mcq)=>mcq.std =="12")
