@@ -68,3 +68,28 @@ var facebookemp = company.find((comp)=>{
     return comp.name === "facebook"
 }).employees
 console.log(facebookemp)
+
+//google company employees
+
+//google --> find...
+//employee -->array loop --> map
+
+var googleEmp = company.find((comp)=>{
+
+    return comp.name === "google"
+}).employees.map((emp)=>{
+    return emp.name
+})
+console.log(googleEmp)
+// console.log(googleEmp.employees[0].name)
+// console.log(googleEmp.employees[1].name)
+//google empoyees -->200000
+///google --> find .compotees -->array
+
+var googleEmp = company.find((comp)=>{
+    return comp.name === "google"
+}).employees.filter((emp)=>{
+    return emp.salary > 200000
+})
+
+console.log("gemp...",googleEmp)

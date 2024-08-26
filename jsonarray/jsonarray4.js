@@ -9,6 +9,22 @@ var country = [
             {
                 name:"Tamil Nadu",
                 population:72147030,
+            },
+            {
+                name:"Maharashtra",
+                population:112374333,
+            },
+            {
+                name:"Uttar Pradesh",
+                population:199812341,
+            },
+            {
+                name:"Kerala",
+                population:33406061
+            },
+            {
+                name:"Telangana",
+                population:35193978
             }
         ]
     },
