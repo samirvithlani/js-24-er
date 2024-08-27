@@ -43,3 +43,15 @@ var country = [
     }
 ]
 //print india's state
+
+var totalpop = 0
+// for(let i=0;i<country.length;i++){
+
+//         if(country[i].name == "India"){
+//             console.log(country[i].states)
+//         }
+
+// }
+
+var totalpop = country.find((c)=>c.name == "India").states.reduce((sum,st)=>sum+st.population,0)
+console.log(totalpop)
