@@ -266,3 +266,6 @@ array is iterable object : we can iterate the array
 array is also subscriptable object : we can access the element of array using index
 array allows duplicate values
 array is mutable object : we can change the value of array
+
+events:
+some action is performed by user on browser is called event
