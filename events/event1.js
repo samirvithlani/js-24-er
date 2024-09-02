@@ -11,3 +11,22 @@ const clickme = ()=>{
     txt.style.width = "300px"
     txt.style.height = "100px"
 }
+
+const chnageLink = ()=>{
+
+    const link = document.getElementById("link");
+    setTimeout(()=>{
+        link.href = "https://www.netflix.com";
+        link.innerHTML = "Netflix"
+        alert("link changed")
+    },3000)
+    // link.href = "https://www.netflix.com";
+    // link.innerHTML = "Netflix"
+}
+
+
+//setTimeOut
+
+// setTimeout(()=>{
+//     console.log("3 seconds passed")
+// },3000)
