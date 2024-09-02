@@ -30,3 +30,11 @@ const chnageLink = ()=>{
 // setTimeout(()=>{
 //     console.log("3 seconds passed")
 // },3000)
+
+const changeShape = ()=>{
+    const mydiv = document.getElementById("mydiv");
+    mydiv.style.width = "200px";
+    mydiv.style.height = "200px";
+    mydiv.style.backgroundColor = "red";
+    mydiv.style.borderRadius = "50%";
+}
