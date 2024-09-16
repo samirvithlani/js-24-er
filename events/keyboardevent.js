@@ -10,3 +10,8 @@ const getData=(event)=>{
 
 
 } 
+
+//task 1
+
+//input [] message enter 5 char 
+//inster india --> message
