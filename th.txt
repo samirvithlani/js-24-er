@@ -269,3 +269,17 @@ array is mutable object : we can change the value of array
 
 events:
 some action is performed by user on browser is called event
+
+
+
+get 3 input tag...
+1st input enter no 1
+2nd input enter symbol [ + ,- , * /]
+3rd input enter no 2
+button submit
+
+browser ans print
+
+//onkeyup
+onclick
+
