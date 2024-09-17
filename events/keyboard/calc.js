@@ -4,6 +4,7 @@ const calc =()=>{
     const num2 =parseInt(document.getElementById('num2').value)
     const operator =document.getElementById('operator').value;
 
+    
     var ans;
 
     switch(operator){
