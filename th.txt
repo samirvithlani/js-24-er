@@ -283,3 +283,13 @@ browser ans print
 //onkeyup
 onclick
 
+input tag --> box ,circle, ohdhas
+blur -->
+
+<div></div>
+.box
+.circle
+
+
+
+
