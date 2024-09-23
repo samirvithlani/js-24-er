@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Grid</title>
+  <script src="./product.js"></script>
+  <style>
+    /* Container for products */
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Individual product card */
+    .product-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .product-card p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Responsive for mobile screens */
+    @media (max-width: 600px) {
+      .product-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  </style>
+</head>
+<body style="background-color: black;">
+    <button onclick="changeTheme()">chaneg</button>
+  <div class="product-container">
+    
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>$100.00</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>$150.00</p>
+    </div>
+
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>$200.00</p>
+    </div>
+    <!-- Add more product cards as needed -->
+  </div>
+</body>
+</html>
