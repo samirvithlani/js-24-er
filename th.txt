@@ -292,4 +292,12 @@ blur -->
 
 
 
+input tag placeholder ="enter formula"
+
+12*12 -->144
+122+12 -->134
+1000/10 -->100
+
+hint: split, switch case...
+
 
