@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./form.js"></script>
+</head>
+<body>
+    <form onsubmit="submitHandler(event)">
+        <div>
+            <label>NAME</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+        <div>
+            <label>EMAIL</label>
+            <input type="text" id="email" placeholder="Enter Email">
+        </div>
+        <div>
+            <select id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+            </select>
+        </div>
+        <div>
+            <label>GENDER</label>
+            <br> MALE <input type="radio" value="male" name="gender" id="male">
+            <br> FEMALE <input type="radio" value="female" name="gender" id="female">
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+</html>
