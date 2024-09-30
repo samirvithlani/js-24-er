@@ -300,4 +300,13 @@ input tag placeholder ="enter formula"
 
 hint: split, switch case...
 
+name
+email : text 
+    it required,it must have @, it must have .com
+age:
+    required, it must be number, it must be greater than 18
+
+password
+    it requireds, min 8 char max 15 ;
+
 
