@@ -18,6 +18,19 @@ const handleSubmit = (event)=>{
         console.log(name.value)
     }
 
+    const email = document.getElementById('email')//<input type="email" id="email">
+    if(!email.value.includes("@") ||  !email.value.endsWith (".com")){
+        const emailError = document.getElementById('email-error')
+        emailError.innerHTML = 'Email is required and should be valid'
+        emailError.style.color = 'red'
+        email.style.outline = '1px solid red'
+    }
+    else{
+        const emailError = document.getElementById('email-error')
+        emailError.innerHTML = ''
+        email.style.outline = '1px solid green'
+        console.log(email.value)
+    }
     
 
 
