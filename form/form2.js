@@ -32,6 +32,20 @@ const handleSubmit = (event)=>{
         console.log(email.value)
     }
     
+    const age = document.getElementById('age')//<input type="number" id="age">
+    
+    //NaN - Not a Number
+    //abc --> true
+    //12 --> false
+    if(!age.value.trim() ==="" || isNaN(age.value)){
+
+        console.log('age is required')
+
+    }
+    else{
+        console.log(age.value)
+    }
+
 
 
 }
