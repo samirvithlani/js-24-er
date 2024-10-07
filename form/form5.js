@@ -1,3 +1,4 @@
+var users =[]
 const submitHandler =(event)=>{
     event.preventDefault()
     const name = document.getElementById('name')
@@ -16,7 +17,11 @@ const submitHandler =(event)=>{
     // console.log(strObj)
 
     //localStorage.setItem("user",user)[object object]
-    localStorage.setItem("user",JSON.stringify(user))
+    //localStorage.setItem("user",JSON.stringify(user))
+
+    users.push(user)
+    //console.log(users)
+    localStorage.setItem("users",JSON.stringify(users))
 
 
 }
