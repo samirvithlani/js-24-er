@@ -31,5 +31,8 @@ ball.addEventListener("mousemove",(event)=>{
             ball.style.top = yPos + "px"; //746
     }
 
-
+})
+ball.addEventListener("mouseup",()=>{
+    isDragging = false;
+    ball.style.cursor = "grab";
 })
