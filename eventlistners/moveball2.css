@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    
+    /* align-items: center; */
+    height: 100vh;
+}
+#ball1{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    border-radius: 50%;
+    position: absolute;
+    cursor: grab;
+    
+}
+#ball2{
+    width: 100px;
+    height: 100px;
+    background-color: #00f;
+    border-radius: 50%;
+    position: absolute;
+    cursor: grab;
+    margin-top: 150px;
+}

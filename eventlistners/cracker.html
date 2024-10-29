@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Matchstick and Cracker</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            background-color: #f5f5f5;
+        }
+        .matchstick, .cracker {
+            position: absolute;
+            cursor: pointer;
+        }
+        .matchstick {
+            width: 250px;
+            height:250px;
+            background-image: url('matchstick.jpg'); /* Replace with your matchstick image */
+            background-size: cover;
+            top: 200px;
+            left: 200px;
+        }
+        .cracker {
+            width: 500px;
+            height: 500px;
+            background-image: url('cracker.png'); /* Replace with your cracker image */
+            background-size: cover;
+            top: 300px;
+            left: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="matchstick" id="matchstick"></div>
+    <div class="cracker" id="cracker"></div>
+
+    <script>
+        const matchstick = document.getElementById('matchstick');
+        const cracker = document.getElementById('cracker');
+        let isDragging = false;
+
+        // Mouse down event to start dragging
+        matchstick.addEventListener('mousedown', (e) => {
+            isDragging = true;
+        });
+
+        // Mouse move event to drag matchstick
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                matchstick.style.left = `${e.pageX - matchstick.offsetWidth / 2}px`;
+                matchstick.style.top = `${e.pageY - matchstick.offsetHeight / 2}px`;
+
+                // Check for collision with cracker
+                const matchRect = matchstick.getBoundingClientRect();
+                const crackerRect = cracker.getBoundingClientRect();
+
+                if (matchRect.left < crackerRect.right &&
+                    matchRect.right > crackerRect.left &&
+                    matchRect.top < crackerRect.bottom &&
+                    matchRect.bottom > crackerRect.top) {
+                    cracker.style.backgroundImage = "url('crackerburst.jpg')"; // Replace with burst image
+                }
+            }
+        });
+
+        // Mouse up event to stop dragging
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+    </script>
+</body>
+</html>
