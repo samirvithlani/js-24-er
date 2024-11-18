@@ -42,12 +42,28 @@ document.addEventListener("DOMContentLoaded", ()=>{
         var ageTd = document.createElement("td");//<td></td>
         ageTd.innerHTML = users[i].age;//<td>23</td>
 
+        var actionTd = document.createElement("td");//<td></td>
+        var detailButton = document.createElement("button");//<button></button>
+        detailButton.innerHTML = "Detail";//<button>Detail</button>
+        //detailButton.style.backgroundColor = "blue";
+        detailButton.className = "btn btn-primary";
+
+        //bind listener to button
+        detailButton.addEventListener('click',()=>{
+            alert("Detail of  " + users[i].name);
+        })
+
+
+
+
+        actionTd.appendChild(detailButton);//<td><button>Detail</button></td>
 
 
         //above created idTd we have to bind to tr
         tr.appendChild(idTd);//<tr><td>101</td></tr>
         tr.appendChild(nameTd);//<tr><td>101</td><td>amit</td></tr>
         tr.appendChild(ageTd);//<tr><td>101</td><td>amit</td><td>23</td></tr>
+        tr.appendChild(actionTd);//<tr><td>101</td><td>amit</td><td>23</td><td><button>Detail</button></td></tr>
 
 
         //above created tr we have to bind to tbody
