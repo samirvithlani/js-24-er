@@ -54,9 +54,17 @@ const addUserToTable = (user)=>{
         })
 
 
+        var deleteButton = document.createElement("button");//<button></button>
+        deleteButton.innerHTML = "Delete";//<button>Delete</button>
+        deleteButton.className = "btn btn-danger";
+
+        deleteButton.addEventListener("click",()=>{
+            tr.remove();
+        })
 
 
         actionTd.appendChild(detailButton);//<td><button>Detail</button></td>
+        actionTd.appendChild(deleteButton);//<td><button>Detail</button><button>Delete</button></td>
 
 
         //above created idTd we have to bind to tr
@@ -98,3 +106,4 @@ const handleSubmit = (event)=>{
     
 
 }
+
