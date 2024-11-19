@@ -10,9 +10,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./dytable.js"></script>
+    <script src="./dytablecopy.js"></script>
   </head>
   <body>
+    <center>
+      <h1>ADD USER</h1>
+      <form onsubmit="handleSubmit(event)">
+        <div>
+          <label>ID</label>
+          <input type="text" id="id" placeholder="enter Id">
+        </div>
+        <div>
+          <label>NAME</label>
+          <input type="text" id="name" placeholder="enter Name">
+        </div>
+        <div>
+          <label>AGE</label>
+          <input type="text" id="age" placeholder="enter Age">
+        </div>
+        <div>
+          
+          <input type="submit" value="SUBMIT">
+        </div>
+      </form>
+
+    </center>
     <div id="root">
       <table border="2px" align="center" class="table">
         <thead>
