@@ -62,9 +62,18 @@ const addUserToTable = (user)=>{
             tr.remove();
         })
 
+        var updateButton = document.createElement("button");//<button></button>
+        updateButton.innerHTML = "Update";//<button>Update</button>
+        updateButton.className = "btn btn-warning";
+
 
         actionTd.appendChild(detailButton);//<td><button>Detail</button></td>
         actionTd.appendChild(deleteButton);//<td><button>Detail</button><button>Delete</button></td>
+        actionTd.appendChild(updateButton);//<td><button>Detail</button><button>Delete</button><button>Update</button></td
+
+        updateButton.addEventListener("click",()=>{
+            updateUser(user); //update..
+        })
 
 
         //above created idTd we have to bind to tr
@@ -78,6 +87,72 @@ const addUserToTable = (user)=>{
         tbody.appendChild(tr);//<tbody><tr></tr></tbody> // <tbody><tr></tr><tr></tr></tbody>
 
     
+}
+
+const updateUser = (user)=>{
+    console.log("we are about to update  ",user);
+    const updateRoot = document.getElementById("updateRoot");//<div></div>
+    //form cration
+    const form = document.createElement("form");//<form></form>
+
+    const idLabel = document.createElement("label");//<label></label>
+    idLabel.innerHTML = "Id";//<label>Id</label>
+    const idInput = document.createElement("input");//<input></input>
+    idInput.type = "text";//<input type="text"></input>
+    idInput.id = "updateId"; //<input type="text" id="updateId"></input>
+    idInput.value = user.id;
+    idInput.disabled = true;
+    //<input type ="text" id = "updateId" value="101" disabled></input>
+    
+    const nameLabel = document.createElement("label");//<label></label>
+    nameLabel.innerHTML = "Name";//<label>Name</label>
+    const nameInput = document.createElement("input");//<input></input>
+    nameInput.type = "text";//<input type="text"></input>
+    nameInput.id = "updateName";//<input type="text" id="updateName"></input>
+    nameInput.value = user.name;
+
+    const ageLabel = document.createElement("label");//<label></label>
+    ageLabel.innerHTML = "Age";//<label>Age</label>
+    const ageInput = document.createElement("input");//<input></input>
+    ageInput.type = "text";//
+    ageInput.id = "updateAge";
+    ageInput.value = user.age;
+
+    form.appendChild(idLabel);//<form><label>Id</label></form>
+    form.appendChild(idInput);//<form><input type="text" id="updateId"></input></form>
+    form.appendChild(nameLabel);//<form><input type="text" id="updateId"></input><label>Name</label></form>
+    form.appendChild(nameInput);//<form><input type="text" id="updateId"></input><input type="text" id="updateName"></input></form>
+    form.appendChild(ageLabel);//<form><input type="text" id="updateId"></input><input type="text" id="updateName"></input><label>Age</label></form>
+    form.appendChild(ageInput);//<form><input type="text" id="updateId"></input><input type="text" id="updateName"></input><input type="text" id="updateAge"></input></form>
+
+    const submitButton = document.createElement("button");//<button></button>
+    submitButton.innerHTML = "Submit";//<button>Update</button>
+    submitButton.className = "btn btn-warning";
+    submitButton.type = "submit";
+
+    form.addEventListener("submit",(event)=>{
+        event.preventDefault();
+        console.log("Form submitted")
+        const updatedId = document.getElementById("updateId").value;
+        const updatedName = document.getElementById("updateName").value;
+        const updatedAge = document.getElementById("updateAge").value;
+
+        console.log(updatedId,updatedName,updatedAge);
+        
+
+        
+    })
+
+    form.appendChild(submitButton);//<form><input type="text" id="updateId"></input><input type="text" id="updateName"></input><input type="text" id="updateAge"></input><button>Update</button></form>
+
+    updateRoot.appendChild(form)
+
+
+
+
+
+
+
 }
 
 document.addEventListener("DOMContentLoaded", ()=>{
