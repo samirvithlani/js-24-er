@@ -1,0 +1,63 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Movie Grid Container */
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Movie Card Styling */
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+/* Image Styling */
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Title Styling */
+.movie-card .title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Star Cast and Ratings */
+.movie-card .star-cast,
+.movie-card .rating {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
