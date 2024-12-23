@@ -1,0 +1,23 @@
+single threadd : process 
+multi threadd : multipule process ...
+
+
+syncronized prog:
+non syn prog:
+
+non sync:
+
+------------------------- 20 sec...
+*************************
+*_*_*_**_********************
+
+sync programming:
+------------------- 1 years
+******************* wait...
+
+javascript non syncronized file...
+
+
+
+place order 3000
+payment:    2000
