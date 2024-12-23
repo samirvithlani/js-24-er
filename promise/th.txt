@@ -21,3 +21,10 @@ javascript non syncronized file...
 
 place order 3000
 payment:    2000
+
+promise:
+javascript promise is class
+3 stages of promise:
+pending
+resolve
+reject
