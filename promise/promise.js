@@ -6,8 +6,6 @@
 // },2000)
 // console.log("end",x)
 
-
-
 // const placeOrder = ()=>{
 //     console.log("order placed...")
 // }
@@ -21,31 +19,27 @@
 //     payment()
 // },5000)
 
+const getData = () => {
+  //resolve rej both are callback function...
+  var promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      //resolve("promise has been resolved,we afe going goa...")
+      reject("promise has been rejected, we are not going to Goa");
+    }, 2000);
 
-const getData=()=>{
+    //resolve("data...")
+    //reject("error...")
+  });
+  console.log(promise); //pending...
+  //if promise get resolved
+  promise.then((data) => {
+    console.log(data);
+  });
 
-    //resolve rej both are callback function...
-    var promise = new Promise((resolve,reject)=>{
+  promise.catch((err) => {
+    console.log(err);
+  });
+};
 
-        setTimeout(() => {
-            //resolve("promise has been resolved,we afe going goa...")    
-            reject("promise has been rejected, we are not going to Goa")
-        }, 2000);
+getData();
 
-        //resolve("data...")
-        //reject("error...")
-    })
-    console.log(promise) //pending...
-    //if promise get resolved
-    promise.then((data)=>{
-        console.log(data)
-    })
-    
-    promise.catch((err)=>{
-        console.log(err)
-    })
-
-    
-}
-
-getData()
