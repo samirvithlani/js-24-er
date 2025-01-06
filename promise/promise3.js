@@ -21,10 +21,10 @@ const placeOrder = (dish) => {
 
 const zomato = () => {
   console.log("welcome to zomato...");
-  var dish = searchDish();
+  var dish = searchDish(); //genExam
   dish.then((data) => {
     console.log(data);
-    var order = placeOrder(data);
+    var order = placeOrder(data); //genQUestion
     order.then((data) => {
       console.log(data);
     });

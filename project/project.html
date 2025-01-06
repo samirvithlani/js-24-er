@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .typing-test-container {
+            background: #fff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 600px;
+            width: 100%;
+            padding: 20px 30px;
+        }
+
+        .typing-test-container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        #para {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            line-height: 1.6;
+            overflow: auto;
+            max-height: 200px;
+        }
+
+        .typing-area {
+            margin-top: 20px;
+        }
+
+        .typing-area textarea {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 16px;
+            resize: none;
+        }
+
+        .typing-area button {
+            display: block;
+            margin: 20px auto 0;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .typing-area button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script src="./project.js"></script>
+</head>
+<body>
+    <div class="typing-test-container">
+        <h1>Typing Test</h1>
+        <div id="para">
+            
+        </div>
+        <button id="startButton">Start</button>
+        <div class="typing-area">
+            <textarea id="userInput" placeholder="Start typing here..."></textarea>
+        </div>
+        <div id="timer">01:00</div>
+    </div>
+
+  
+</body>
+</html>
